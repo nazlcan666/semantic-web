@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:98fac9a8-d5e1-41cc-8497-b3424287d017#"
+     xml:base="urn:webprotege:ontology:98fac9a8-d5e1-41cc-8497-b3424287d017"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:98fac9a8-d5e1-41cc-8497-b3424287d017"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8eincRuexfA82pbTAPAufA -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R8eincRuexfA82pbTAPAufA">
+        <rdfs:label>yazar</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8nZ9Gss91H4ayV8CmdXjC3 -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R8nZ9Gss91H4ayV8CmdXjC3">
+        <rdfs:label>Yayınlanma Tarihi</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9L9dAEUxcpf1TjwMMYeMSS -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R9L9dAEUxcpf1TjwMMYeMSS">
+        <rdfs:label>name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9j1FhzeeLrZMaWUniQBWI6 -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R9j1FhzeeLrZMaWUniQBWI6">
+        <rdfs:label>ısbn</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC9ye418bWAryLkCiR21s3A -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RC9ye418bWAryLkCiR21s3A">
+        <rdfs:label>yayıncı</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCN0Zo4dRGJwznHWTTTcXtB -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RCN0Zo4dRGJwznHWTTTcXtB">
+        <rdfs:label>author</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCUa3aQWaWqv17SOLYNKlx4 -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RCUa3aQWaWqv17SOLYNKlx4">
+        <rdfs:label>Dil</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDDVruH8hmdXAMbeZnIyiln -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RDDVruH8hmdXAMbeZnIyiln">
+        <rdfs:label>Yayıncı</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ramz6FClFLVHBgwLljnoRJ -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/Ramz6FClFLVHBgwLljnoRJ">
+        <rdfs:label>ISBN-10</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5MJAprqXoV3b1KZSm4LQA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R5MJAprqXoV3b1KZSm4LQA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCg0DnGLjXlMkpYlwMQo8V"/>
+        <webprotege:R8eincRuexfA82pbTAPAufA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ralph Carl</webprotege:R8eincRuexfA82pbTAPAufA>
+        <webprotege:R8nZ9Gss91H4ayV8CmdXjC3 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 Temmuz 2022</webprotege:R8nZ9Gss91H4ayV8CmdXjC3>
+        <webprotege:RCUa3aQWaWqv17SOLYNKlx4 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingilizce</webprotege:RCUa3aQWaWqv17SOLYNKlx4>
+        <rdfs:label>Big data and firm marketing performance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R77HOeteZhDYeEkwNwSohjr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R77HOeteZhDYeEkwNwSohjr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCg0DnGLjXlMkpYlwMQo8V"/>
+        <webprotege:R8nZ9Gss91H4ayV8CmdXjC3 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Ağustos 2007</webprotege:R8nZ9Gss91H4ayV8CmdXjC3>
+        <webprotege:R9L9dAEUxcpf1TjwMMYeMSS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Secret Agent</webprotege:R9L9dAEUxcpf1TjwMMYeMSS>
+        <webprotege:RC9ye418bWAryLkCiR21s3A rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penguin Classics</webprotege:RC9ye418bWAryLkCiR21s3A>
+        <webprotege:RCN0Zo4dRGJwznHWTTTcXtB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joseph Conrad</webprotege:RCN0Zo4dRGJwznHWTTTcXtB>
+        <webprotege:RCUa3aQWaWqv17SOLYNKlx4 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngilizce</webprotege:RCUa3aQWaWqv17SOLYNKlx4>
+        <webprotege:Ramz6FClFLVHBgwLljnoRJ rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141441585</webprotege:Ramz6FClFLVHBgwLljnoRJ>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Secret Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8qABqdjcvIZcnnUANNr1Ol -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8qABqdjcvIZcnnUANNr1Ol">
+        <rdfs:label>Westerns</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBcVRGZuFBxLgAJ5V9XWfZu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBcVRGZuFBxLgAJ5V9XWfZu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8qABqdjcvIZcnnUANNr1Ol"/>
+        <webprotege:R8eincRuexfA82pbTAPAufA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charles Portis</webprotege:R8eincRuexfA82pbTAPAufA>
+        <webprotege:R8nZ9Gss91H4ayV8CmdXjC3 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 Ocak 2005</webprotege:R8nZ9Gss91H4ayV8CmdXjC3>
+        <webprotege:RC9ye418bWAryLkCiR21s3A rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bloomsbury Publishing PLC</webprotege:RC9ye418bWAryLkCiR21s3A>
+        <webprotege:RCUa3aQWaWqv17SOLYNKlx4 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingilizce</webprotege:RCUa3aQWaWqv17SOLYNKlx4>
+        <webprotege:Ramz6FClFLVHBgwLljnoRJ rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">747572631</webprotege:Ramz6FClFLVHBgwLljnoRJ>
+        <rdfs:label>True Grit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBrEckHOCXQxKjredpbU1cX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBrEckHOCXQxKjredpbU1cX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/REINciz4tOK81xZE4oCi1X"/>
+        <webprotege:R8eincRuexfA82pbTAPAufA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martin McDonagh</webprotege:R8eincRuexfA82pbTAPAufA>
+        <webprotege:R8nZ9Gss91H4ayV8CmdXjC3 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21 Şubat 2008</webprotege:R8nZ9Gss91H4ayV8CmdXjC3>
+        <webprotege:RCUa3aQWaWqv17SOLYNKlx4 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngilizce</webprotege:RCUa3aQWaWqv17SOLYNKlx4>
+        <webprotege:RDDVruH8hmdXAMbeZnIyiln rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martin McDonagh</webprotege:RDDVruH8hmdXAMbeZnIyiln>
+        <webprotege:Ramz6FClFLVHBgwLljnoRJ rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">571242316</webprotege:Ramz6FClFLVHBgwLljnoRJ>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In Bruges</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCCg0DnGLjXlMkpYlwMQo8V -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCCg0DnGLjXlMkpYlwMQo8V">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spy Fiction Examples</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCX3LK81CEOuHJPt5IlQZ1Z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCX3LK81CEOuHJPt5IlQZ1Z">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/REINciz4tOK81xZE4oCi1X"/>
+        <webprotege:R8eincRuexfA82pbTAPAufA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joseph Heller</webprotege:R8eincRuexfA82pbTAPAufA>
+        <webprotege:R8nZ9Gss91H4ayV8CmdXjC3 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 Ağustos 2014</webprotege:R8nZ9Gss91H4ayV8CmdXjC3>
+        <webprotege:RC9ye418bWAryLkCiR21s3A rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vintage Publishing</webprotege:RC9ye418bWAryLkCiR21s3A>
+        <webprotege:RCUa3aQWaWqv17SOLYNKlx4 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngilizce</webprotege:RCUa3aQWaWqv17SOLYNKlx4>
+        <webprotege:Ramz6FClFLVHBgwLljnoRJ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9780099529125</webprotege:Ramz6FClFLVHBgwLljnoRJ>
+        <rdfs:label>Catch-22</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCvnmfpw74SPIElpstFitWz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCvnmfpw74SPIElpstFitWz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/REINciz4tOK81xZE4oCi1X"/>
+        <webprotege:R8eincRuexfA82pbTAPAufA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jon Klassen</webprotege:R8eincRuexfA82pbTAPAufA>
+        <webprotege:R8nZ9Gss91H4ayV8CmdXjC3 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 Ekim 2012</webprotege:R8nZ9Gss91H4ayV8CmdXjC3>
+        <webprotege:RCUa3aQWaWqv17SOLYNKlx4 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngilizce</webprotege:RCUa3aQWaWqv17SOLYNKlx4>
+        <webprotege:RDDVruH8hmdXAMbeZnIyiln rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walker Books Ltd</webprotege:RDDVruH8hmdXAMbeZnIyiln>
+        <webprotege:Ramz6FClFLVHBgwLljnoRJ rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1406338532</webprotege:Ramz6FClFLVHBgwLljnoRJ>
+        <rdfs:label>I Want My Hat Back: 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCwTb9nboAsDS3vDIAY4rKZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCwTb9nboAsDS3vDIAY4rKZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8qABqdjcvIZcnnUANNr1Ol"/>
+        <webprotege:R8eincRuexfA82pbTAPAufA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Turpin</webprotege:R8eincRuexfA82pbTAPAufA>
+        <webprotege:R8nZ9Gss91H4ayV8CmdXjC3 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28 Ocak 2011</webprotege:R8nZ9Gss91H4ayV8CmdXjC3>
+        <webprotege:RC9ye418bWAryLkCiR21s3A rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amberley Publishing</webprotege:RC9ye418bWAryLkCiR21s3A>
+        <webprotege:RCUa3aQWaWqv17SOLYNKlx4 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingilizce</webprotege:RCUa3aQWaWqv17SOLYNKlx4>
+        <webprotege:Ramz6FClFLVHBgwLljnoRJ rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1445600382</webprotege:Ramz6FClFLVHBgwLljnoRJ>
+        <rdfs:label>The Magnificent Seven</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/REINciz4tOK81xZE4oCi1X -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/REINciz4tOK81xZE4oCi1X">
+        <rdfs:label>Black Comedy Examples</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RL6FOvrLUFlC3plyBSw7gv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RL6FOvrLUFlC3plyBSw7gv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCg0DnGLjXlMkpYlwMQo8V"/>
+        <webprotege:R8eincRuexfA82pbTAPAufA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jason Matthews</webprotege:R8eincRuexfA82pbTAPAufA>
+        <webprotege:R8nZ9Gss91H4ayV8CmdXjC3 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22 Şubat 2018</webprotege:R8nZ9Gss91H4ayV8CmdXjC3>
+        <webprotege:RDDVruH8hmdXAMbeZnIyiln rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simon &amp; Schuster Ltd</webprotege:RDDVruH8hmdXAMbeZnIyiln>
+        <webprotege:Ramz6FClFLVHBgwLljnoRJ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9781471166129</webprotege:Ramz6FClFLVHBgwLljnoRJ>
+        <rdfs:label>Red Sparrow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RTfCTowyPQYRA2FkvNrHnh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RTfCTowyPQYRA2FkvNrHnh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8qABqdjcvIZcnnUANNr1Ol"/>
+        <webprotege:R8eincRuexfA82pbTAPAufA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Henry Rider Haggard</webprotege:R8eincRuexfA82pbTAPAufA>
+        <webprotege:R8nZ9Gss91H4ayV8CmdXjC3 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15 Şubat 2022</webprotege:R8nZ9Gss91H4ayV8CmdXjC3>
+        <webprotege:RCUa3aQWaWqv17SOLYNKlx4 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngilizce</webprotege:RCUa3aQWaWqv17SOLYNKlx4>
+        <webprotege:Ramz6FClFLVHBgwLljnoRJ rdf:datatype="http://www.w3.org/2001/XMLSchema#string">979-8416617875</webprotege:Ramz6FClFLVHBgwLljnoRJ>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Ghost Kings:</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
